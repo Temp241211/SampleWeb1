@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title class="text-center">
-          Y5儲運系統車行APP
+          OO儲運系統車行APP
         </q-toolbar-title>
 
         <q-btn round dense flat color="white" icon="info">
@@ -21,9 +21,8 @@
               <q-list>
                 <q-item>
                   <q-item-section class="text-left">
-                    <q-item-label overline>OO車行</q-item-label>
-                    <q-item-label overline>OOO-FFFF-BB</q-item-label>
-                    <q-item-label overline>tel#66</q-item-label>
+                    <q-item-label overline>XX車行</q-item-label>
+                    <q-item-label overline>OOO-FFFF車號</q-item-label>
                   </q-item-section>
                 </q-item>
               </q-list>
