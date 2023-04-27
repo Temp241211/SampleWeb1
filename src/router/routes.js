@@ -6,6 +6,10 @@ const routes = [
       { path: "", component: () => import("pages/IndexPage.vue") },
       { path: "/tasks", component: () => import("pages/TasksPage.vue") },
       { path: "/tasks/:id", component: () => import("pages/TaskPage.vue") },
+      {
+        path: "/qrcodescanner",
+        component: () => import("pages/QRCodeScannerPage.vue"),
+      },
     ],
   },
 

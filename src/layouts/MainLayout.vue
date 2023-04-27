@@ -51,7 +51,15 @@
           icon="local_shipping"
           disable
         />
-        <q-tab disable name="articles" label="..." />
+        <!-- <q-tab disable name="articles" label="..." /> -->
+        <q-route-tab
+          :to="'/qrcodescanner'"
+          exact
+          replace
+          label="QRCode"
+          name="qrcodescanner"
+          icon="qr_code_scanner"
+        />
       </q-tabs>
     </q-header>
 
